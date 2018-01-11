@@ -472,3 +472,6 @@
 
 # Themes
 /data/system/theme(/.*)?  u:object_r:theme_data_file:s0
+
+# Sysinit
+/(vendor|system/vendor)/bin/sysinit                     u:object_r:sysinit_exec:s0
